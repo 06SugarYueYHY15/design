@@ -1,0 +1,13 @@
+package create.AbstractFactory;
+
+public class Factory1 implements AbstractFactory{
+    @Override
+    public Product1 newProduct1() {
+        return new Product11();
+    }
+
+    @Override
+    public Product2 newProduct2() {
+        return new Product22();
+    }
+}
